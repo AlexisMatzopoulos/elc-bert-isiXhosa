@@ -1,0 +1,6 @@
+acc = 0.9326599326599326
+f1 = 0.9333395373506477
+loss = 0.443660695357769
+precision = 0.9364094332744761
+recall = 0.9326599326599326
+report = {'sports': {'precision': 0.98989898989899, 'recall': 0.98, 'f1-score': 0.9849246231155779, 'support': 100.0}, 'health': {'precision': 0.7727272727272727, 'recall': 0.85, 'f1-score': 0.8095238095238095, 'support': 20.0}, 'technology': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, 'business': {'precision': 0.9230769230769231, 'recall': 0.8, 'f1-score': 0.8571428571428571, 'support': 15.0}, 'politics': {'precision': 0.855072463768116, 'recall': 0.9516129032258065, 'f1-score': 0.9007633587786259, 'support': 62.0}, 'entertainment': {'precision': 0.9680851063829787, 'recall': 0.91, 'f1-score': 0.9381443298969072, 'support': 100.0}, 'religion': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, 'uncategorized': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, 'accuracy': 0.9326599326599326, 'macro avg': {'precision': 0.563607594481785, 'recall': 0.5614516129032259, 'f1-score': 0.5613123723072222, 'support': 297.0}, 'weighted avg': {'precision': 0.9364094332744761, 'recall': 0.9326599326599326, 'f1-score': 0.9333395373506477, 'support': 297.0}}

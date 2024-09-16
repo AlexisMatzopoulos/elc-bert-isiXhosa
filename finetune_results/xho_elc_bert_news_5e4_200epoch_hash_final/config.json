@@ -1,0 +1,49 @@
+{
+  "_name_or_path": "/mnt/lustre/users/amatzopoulos/freshstart/news2/code/5e4200epochlegit",
+  "architectures": [
+    "LtgBertForSequenceClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "auto_map": {
+    "AutoConfig": "configuration_ltgbert.LtgBertConfig",
+    "AutoModelForMaskedLM": "modeling_ltgbert.LtgBertForMaskedLM",
+    "AutoModelForSequenceClassification": "modeling_ltgbert.LtgBertForSequenceClassification",
+    "AutoModelForTokenClassification": "modeling_ltgbert.LtgBertFoTokenClassification"
+  },
+  "classifier_dropout": 0.1,
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 384,
+  "id2label": {
+    "0": "sports",
+    "1": "health",
+    "2": "technology",
+    "3": "business",
+    "4": "politics",
+    "5": "entertainment",
+    "6": "religion",
+    "7": "uncategorized"
+  },
+  "intermediate_size": 1024,
+  "label2id": {
+    "business": 3,
+    "entertainment": 5,
+    "health": 1,
+    "politics": 4,
+    "religion": 6,
+    "sports": 0,
+    "technology": 2,
+    "uncategorized": 7
+  },
+  "layer_norm_eps": 1e-07,
+  "max_position_embeddings": 512,
+  "model_type": "ltgbert",
+  "num_attention_heads": 6,
+  "num_hidden_layers": 12,
+  "output_all_encoded_layers": true,
+  "pad_token_id": 4,
+  "position_bucket_size": 32,
+  "problem_type": "single_label_classification",
+  "torch_dtype": "float32",
+  "transformers_version": "4.43.2",
+  "vocab_size": 6144
+}
